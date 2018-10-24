@@ -46,6 +46,8 @@ func _on_element_gui_input(ev):
 				OS.execute(str(engine_path), [ isglobal.project_path, "-e"], false);
 				
 			 
+			get_tree().root.get_node("main").quit();
+			
 		
 	
 #

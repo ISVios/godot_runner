@@ -37,7 +37,7 @@ func _ready():
 	var path_to_project = OS.get_environment("godot_runner_project_path"); # need create bat or sh
 	if(path_to_project != ""):
 		
-		isglobal.project_path = path_to_project.replace("\\", "/"); #"D:/workspace/godot runer/project.godot"
+		isglobal.project_path = path_to_project.replace("\\", "/");
 		isglobal.project_path = path_to_project.replace(" ", "%20");
 	
 	# setup pop menu

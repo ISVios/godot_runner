@@ -14,7 +14,7 @@ func _on_FileDialog_visibility_changed():
 	
 #"
 
-[node name="main" type="Control" index="0" groups=[
+[node name="main" type="Control" groups=[
 "main",
 ]]
 
